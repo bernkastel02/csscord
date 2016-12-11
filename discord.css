@@ -1,0 +1,159 @@
+/*
+	                                            .___
+	  ____   ______ ______ ____  ___________  __| _/
+	_/ ___\ /  ___//  ___// ___\/  _ \_  __ \/ __ | 
+	\  \___ \___ \ \___ \\  \__(  <_> )  | \/ /_/ | 
+	 \___  >____  >____  >\___  >____/|__|  \____ | 
+	     \/     \/     \/     \/                 \/ 
+	     	Created by Ran Yakumo (ranthekitsune)
+*/
+
+/* 
+
+	Tags & Mention
+
+*/
+
+.markup .highlight {
+	color: rgba(255, 241, 118, 1);
+	background-color: rgba(255, 241, 118, 0.6);
+}
+
+.markup .highlight:hover {
+	color: rgba(255, 241, 118, 1);
+	background-color: rgba(255, 241, 118, 0.6);
+}
+
+/*
+	User Stuff 
+*/
+
+div.user-popout div.body .member-roles component.member-role {
+  opacity: 100%;
+}
+
+
+div.user-popout header.header {
+  background-image: repeating-linear-gradient(-45deg, #e57373, #e57373 25px, #f44336 26px, #f44336 50px);
+  -webkit-animation:userprofile 2s linear infinite;
+  -moz-animation:userprofile 2s linear infinite;
+  -ms-animation:userprofile 2s linear infinite;
+  animation:userprofile 2s linear infinite;
+  background-size: 150% 100%;
+}
+
+input.quick-message {
+	background-color: #03A9F4;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #B3E5FC;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #B3E5FC;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #B3E5FC;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #B3E5FC;
+}
+
+div.user-popout {
+  opacity: 0.9;
+}
+
+div.user-popout div.body {
+  background-color: black;
+}
+div.user-popout div.footer {
+  background-color: black;
+}
+
+div.user-popout div.footer div.protip.inline label.label {
+  color: #00ACC1;
+}
+
+span.bot-tag {
+	background: #ef5350;
+	content: 'Wew';
+}
+.bot-tag-invert {
+	background: #ef5350;
+	content: 'Wew';
+}
+
+
+/* 
+	Guild Stuff
+*/
+
+
+div.guild:hover {
+	border-color: #26A69A;
+}
+
+/* 
+	Keyframes
+*/
+
+@-webkit-keyframes userprofile {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -75px 0px;
+  }
+}
+@-moz-keyframes userprofile {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -75px 0px;
+  }
+}    
+@-ms-keyframes userprofile {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -75px 0px;
+  }
+}    
+@keyframes userprofile {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -70px 0px;
+  }
+} 
+
+
+/* 
+	Client Stuff
+*/
+
+form.form.settings.user-settings-modal {
+	opacity: 0.98;
+}
+
+form.form.settings.user-settings-modal div.settings-header div.tab-bar.SIDE {
+  background-color: #FFFFFF;
+}
+
+form.form.settings.user-settings-modal div.settings-header div.tab-bar-item {
+  color: #26C6DA;
+}
+form.form.settings.user-settings-modal div.settings-header div.tab-bar-header {
+  color: #00ACC1;
+}
+
+button.btn.btn-primary {
+	background-color: #26C6DA;
+}
+
+button.btn.btn-primary:hover {
+	background-color: #80DEEA;
+}
