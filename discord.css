@@ -8,12 +8,6 @@
 	     	Created by Ran Yakumo (ranthekitsune)
 */
 
-/* 
-
-	Tags & Mention
-
-*/
-
 .markup .highlight {
 	color: rgba(255, 241, 118, 1);
 	background-color: rgba(255, 241, 118, 0.6);
@@ -23,10 +17,6 @@
 	color: rgba(255, 241, 118, 1);
 	background-color: rgba(255, 241, 118, 0.6);
 }
-
-/*
-	User Stuff 
-*/
 
 div.user-popout div.body .member-roles component.member-role {
   opacity: 100%;
@@ -83,19 +73,9 @@ span.bot-tag {
 	content: 'Wew';
 }
 
-
-/* 
-	Guild Stuff
-*/
-
-
 div.guild:hover {
 	border-color: #26A69A;
 }
-
-/* 
-	Keyframes
-*/
 
 @-webkit-keyframes userprofile {
   0% {
@@ -130,11 +110,6 @@ div.guild:hover {
   }
 } 
 
-
-/* 
-	Client Stuff
-*/
-
 form.form.settings.user-settings-modal {
 	opacity: 0.98;
 }
@@ -156,4 +131,104 @@ button.btn.btn-primary {
 
 button.btn.btn-primary:hover {
 	background-color: #80DEEA;
+}
+
+div.divider.divider-red {
+	color: #80DEEA;
+}
+
+
+.status.status-online {
+	background-color: #AED581;
+}
+
+.status.status-dnd {
+	background-color: #e57373;
+}
+
+.status.status-idle {
+	background-color: #FFF176;
+}
+.status.status-offline {
+	background-color: #E0E0E0;
+}
+
+.guilds-wrapper .guilds .guild.unread:before {
+    height: 12px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: #3949AB;
+    margin-top: -6px;
+}
+
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+    content: ' ';
+    width: 12px;
+    height: 12px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: #64B5F6;
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    position: absolute;
+    top: 12px;
+    left: -6px;
+}
+
+.guild-channels .channel-text:hover.channel-muted:before, .guild-channels .channel-text:hover:not(.unread):before {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    content: ' ';
+    border-left: 2px solid #64B5F6;
+    opacity: .25;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+    filter: alpha(opacity=25);
+}
+
+
+.channel-name {
+	color: #64B5F6;
+}
+
+div.chat.flex-vertical.flex-spacer div.title-wrap div.title .channel-name {
+	color: #64B5F6;
+}
+
+.channel-name:before {
+	color: #64B5F6 !important;
+    margin-right: 3px !important;
+    font-weight: 600;
+}
+
+.highlight {
+	color: #FDD835;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.highlight:hover {
+    cursor: pointer;
+    color: #fff;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.markdown-modal .markdown-modal-header {
+    margin: 28px 0 0;
+    text-align: center;
+    padding: 0 20px 28px;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+    font-weight: 600;
+    font-size: 3em;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #CDDC39;
+}
+
+.markdown-modal {
+	color: #64B5F6;
+	background-color: rgba(0, 0, 0, 0.6);;
 }
