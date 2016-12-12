@@ -118,11 +118,11 @@ form.form.settings.user-settings-modal div.settings-header div.tab-bar.SIDE {
   background-color: #FFFFFF;
 }
 
-form.form.settings.user-settings-modal div.settings-header div.tab-bar-item {
-  color: #26C6DA;
+div.settings-header div.tab-bar-item {
+  color: #81C784;
 }
-form.form.settings.user-settings-modal div.settings-header div.tab-bar-header {
-  color: #00ACC1;
+div.settings-header div.tab-bar-header {
+  color: #81C784;
 }
 
 button.btn.btn-primary {
@@ -157,7 +157,7 @@ div.divider.divider-red {
     height: 12px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
-    background: #3949AB;
+    background: #FFEE58;
     margin-top: -6px;
 }
 
@@ -167,7 +167,7 @@ div.divider.divider-red {
     height: 12px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
-    background: #64B5F6;
+    background: #FFEE58;
     opacity: 1;
     -ms-filter: none;
     filter: none;
@@ -183,23 +183,34 @@ div.divider.divider-red {
     left: 0;
     height: 100%;
     content: ' ';
-    border-left: 2px solid #64B5F6;
+    border-left: 2px solid #FFEE58;
     opacity: .25;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
     filter: alpha(opacity=25);
 }
 
+.guild-channels .channel-text.selected:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    content: ' ';
+    border-left: 2px solid #FFEE58;
+    opacity: 1!important;
+    -ms-filter: none!important;
+    filter: none!important;
+}
 
 .channel-name {
-	color: #64B5F6;
+	color: #FFEE58 !important;
 }
 
 div.chat.flex-vertical.flex-spacer div.title-wrap div.title .channel-name {
-	color: #64B5F6;
+	color: #FFEE58 !important;
 }
 
 .channel-name:before {
-	color: #64B5F6 !important;
+	color: #FFEE58 !important;
     margin-right: 3px !important;
     font-weight: 600;
 }
@@ -231,4 +242,125 @@ div.chat.flex-vertical.flex-spacer div.title-wrap div.title .channel-name {
 .markdown-modal {
 	color: #64B5F6;
 	background-color: rgba(0, 0, 0, 0.6);;
+}
+
+.badge {
+	background-color: #F9A825;
+}
+
+.notice {
+	background-color: #1976D2;
+}
+
+.radio .radio-inner span:after {
+	background: #1976D2;
+}
+
+div.tab-bar.SIDE {
+	background-color: #FFFFFF;
+}
+
+div.settings-header div.tab-bar.SIDE div.tab-bar-item {
+	color: #81C784;
+}
+
+div.settings-header div.tab-bar.SIDE div.tab-bar-header {
+	color: #81C784;
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+	background-color: #81C784;
+	border-color: #81C784;
+}
+
+.message-group a {
+	color: #FFEE58 !important;
+}
+
+div#user-profile-modal {
+	opacity: 0.98;
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+div#user-profile-modal header.header {
+  background-image: repeating-linear-gradient(-45deg, #e57373, #e57373 25px, #f44336 26px, #f44336 50px);
+  -webkit-animation:userprofile 2s linear infinite;
+  -moz-animation:userprofile 2s linear infinite;
+  -ms-animation:userprofile 2s linear infinite;
+  animation:userprofile 2s linear infinite;
+  background-size: 150% 100%;
+}
+
+div.avatar-wrapper {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+
+.invite-button-icon.accepted {
+	background-color: #03A9F4;
+	border-color: #03A9F4;
+}
+
+ul.channel-voice-states span {
+	opacity: 0.5;
+	color: #FFEE58;
+}
+
+div.friends-icon {
+	background-color: #FBC02D;
+}
+
+div.guild-inner a.avatar-small {
+	background-color: #FBC02D;
+}
+
+div.guild.selected div.guild-inner a.avatar-small {
+	background-color: #FFEB3B;
+}
+
+span.username {
+	color: #FFEE58;
+}
+
+span.discriminator {
+	color: #FFEE58;
+}
+
+.account .btn-group {
+    border: 1px solid #FFEE58;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+}
+
+.account {
+    border-top: 1px solid #FFEE58;
+}
+
+.channel-members-wrap {
+    min-width: 240px;
+    display: box;
+    display: flex;
+    position: relative;
+}
+
+div.flex-spacer.flex-vertical form {
+    border-top: 1px solid #FFEE58;
+}
+
+div.guild-header header {
+	border-bottom: 1px solid #FFEE58;
+}
+
+div.chat.flex-vertical.flex-spacer div.title-wrap {
+	border-bottom: 1px solid #FFEE58;
+}
+
+div.channel-textarea {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 238, 88);
+    border-image: initial;
 }
